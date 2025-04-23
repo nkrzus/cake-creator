@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeCreator.UI", "CakeCreator.UI.csproj", "{B50375F7-A3E9-40D5-BF59-65581B5D9E18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeCreator.Database", "..\CakeCreator.Database\CakeCreator.Database.csproj", "{15ED2E7B-DB42-48A9-8892-A098B8824399}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeCreator.Services", "..\CakeCreator.Services\CakeCreator.Services.csproj", "{393DF859-273B-48AE-AB94-896896405BCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B50375F7-A3E9-40D5-BF59-65581B5D9E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B50375F7-A3E9-40D5-BF59-65581B5D9E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B50375F7-A3E9-40D5-BF59-65581B5D9E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15ED2E7B-DB42-48A9-8892-A098B8824399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15ED2E7B-DB42-48A9-8892-A098B8824399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15ED2E7B-DB42-48A9-8892-A098B8824399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15ED2E7B-DB42-48A9-8892-A098B8824399}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393DF859-273B-48AE-AB94-896896405BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393DF859-273B-48AE-AB94-896896405BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393DF859-273B-48AE-AB94-896896405BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393DF859-273B-48AE-AB94-896896405BCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

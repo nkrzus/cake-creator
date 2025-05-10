@@ -1,4 +1,4 @@
-﻿using CakeCreator.Model;
+﻿using CakeCreator.Database.Model;
 using Microsoft.EntityFrameworkCore;
 
 namespace CakeCreator.Database

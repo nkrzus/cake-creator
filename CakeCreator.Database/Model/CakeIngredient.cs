@@ -1,7 +1,7 @@
-﻿using CakeCreator.Model.Enums;
-using CakeCreator.Model.Interfaces;
+﻿using CakeCreator.Database.Model.Enums;
+using CakeCreator.Database.Model.Interfaces;
 
-namespace CakeCreator.Model
+namespace CakeCreator.Database.Model
 {
     public class CakeIngredient : ICakeEntity
     {

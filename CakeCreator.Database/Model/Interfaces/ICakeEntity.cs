@@ -1,4 +1,4 @@
-﻿namespace CakeCreator.Model.Interfaces
+﻿namespace CakeCreator.Database.Model.Interfaces
 {
     public interface ICakeEntity
     {

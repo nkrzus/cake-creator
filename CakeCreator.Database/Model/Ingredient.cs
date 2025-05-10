@@ -1,5 +1,5 @@
-﻿using CakeCreator.Model.Interfaces;
-namespace CakeCreator.Model
+﻿using CakeCreator.Database.Model.Interfaces;
+namespace CakeCreator.Database.Model
 {
     public class Ingredient : ICakeEntity
     {

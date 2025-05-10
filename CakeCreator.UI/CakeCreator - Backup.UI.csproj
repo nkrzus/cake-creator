@@ -10,18 +10,12 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
+    <AvaloniaResource Include="Assets\**" />
   </ItemGroup>
 
-	<ItemGroup>
-		<AvaloniaResource Include="Assets\**" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Remove="Assets\add.png" />
-	  <None Remove="Assets\edit.png" />
-	  <None Remove="Assets\trash.png" />
-	</ItemGroup>
-	
+  <ItemGroup>
+    <None Remove="Assets\add.png" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="11.2.1" />
@@ -45,5 +39,4 @@
   <ItemGroup>
     <ProjectReference Include="..\CakeCreator.Database\CakeCreator.Database.csproj" />
   </ItemGroup>
-
 </Project>

@@ -9,5 +9,7 @@ namespace CakeCreator.Database.Model
         public required string Unit { get; set; }
         public int CakeIngredientId { get; set; }
         public CakeIngredient CakeIngredient { get; set; }
+
+        public string Display => $"{Quantity} {Unit} {Name}";
     }
 }

@@ -17,6 +17,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AvaloniaXaml Remove="Assets\Buttons.axaml" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Assets\add.png" />
 	  <None Remove="Assets\edit.png" />
 	  <None Remove="Assets\trash.png" />
@@ -44,6 +48,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CakeCreator.Database\CakeCreator.Database.csproj" />
+    <ProjectReference Include="..\CakeCreator.Services\CakeCreator.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AvaloniaResource Update="Assets\Buttons.axaml">
+      <SubType>Designer</SubType>
+    </AvaloniaResource>
   </ItemGroup>
 
 </Project>
